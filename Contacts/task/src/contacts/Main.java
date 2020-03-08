@@ -35,7 +35,15 @@ class Contacts {
 class Record {
     String name;
     String surname;
-    String number;
+    private String number;
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
 
     Record(String name, String surname, String number) {
         this.name = name;
