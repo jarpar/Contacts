@@ -24,6 +24,14 @@ public class Main {
 
 }
 
+class Contacts {
+    Record rec;
+
+    Contacts(Record rec) {
+        this.rec = rec;
+    }
+}
+
 class Record {
     String name;
     String surname;
