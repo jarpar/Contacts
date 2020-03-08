@@ -19,6 +19,7 @@ public class Main {
         Contacts contacts = new Contacts(record);
 
         System.out.println("A record created!\nA Phone Book with a single record created!");
+        //System.out.println(record.toString());
 
     }
 
@@ -33,9 +34,25 @@ class Contacts {
 }
 
 class Record {
-    String name;
-    String surname;
+    private String name;
+    private String surname;
     private String number;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
 
     public String getNumber() {
         return number;
@@ -46,8 +63,17 @@ class Record {
     }
 
     Record(String name, String surname, String number) {
-        this.name = name;
-        this.surname = surname;
-        this.number = number;
+        setName(name);
+        setSurname(surname);
+        setNumber(number);
+    }
+
+    @Override
+    public String toString() {
+        return "Record{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", number='" + number + '\'' +
+                '}';
     }
 }
