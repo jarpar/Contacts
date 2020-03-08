@@ -19,7 +19,7 @@ public class Main {
         Contacts contacts = new Contacts(record);
 
         System.out.println("A record created!\nA Phone Book with a single record created!");
-//        System.out.println(record);
+        System.out.println(record);
     }
 
 }
@@ -35,10 +35,18 @@ class Contacts {
 class Record {
     private String name;
     private String surname;
-    private String number;
+    private String number = "";
 
     public String getName() {
         return name;
+    }
+
+    public String hasNumber() {
+        if (number.isEmpty()) {
+            return "[no number]";
+        } else {
+            return number;
+        }
     }
 
     public void setName(String name) {
@@ -69,10 +77,6 @@ class Record {
 
     @Override
     public String toString() {
-        return "Record{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", number='" + number + '\'' +
-                '}';
+        return name + " " + surname + ", " + hasNumber();
     }
 }
