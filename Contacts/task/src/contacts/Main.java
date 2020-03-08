@@ -15,8 +15,11 @@ public class Main {
         System.out.println("Enter the number:");
         String number = scanner.nextLine();
 
-        System.out.println("A record created!");
-        System.out.println("A Phone Book with a single record created!");
+        Record record = new Record(name, surname, number);
+        Contacts contacts = new Contacts(record);
+
+        System.out.println("A record created!\nA Phone Book with a single record created!");
+
     }
 
 }
