@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/Contacts/task/out/
+/Contacts/task/out/production/classes/
