@@ -8,15 +8,12 @@ public class Main {
 
         System.out.println("Enter the name of the person:");
         String name = scanner.nextLine();
-        System.out.println(name);
 
         System.out.println("Enter the surname of the person:");
         String surname = scanner.nextLine();
-        System.out.println(surname);
 
         System.out.println("Enter the number:");
         String number = scanner.nextLine();
-        System.out.println(number);
 
         System.out.println("A record created!");
         System.out.println("A Phone Book with a single record created!");
