@@ -19,8 +19,7 @@ public class Main {
         Contacts contacts = new Contacts(record);
 
         System.out.println("A record created!\nA Phone Book with a single record created!");
-        //System.out.println(record.toString());
-
+//        System.out.println(record);
     }
 
 }
