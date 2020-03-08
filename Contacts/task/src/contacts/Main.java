@@ -23,3 +23,15 @@ public class Main {
     }
 
 }
+
+class Record {
+    String name;
+    String surname;
+    String number;
+
+    Record(String name, String surname, String number) {
+        this.name = name;
+        this.surname = surname;
+        this.number = number;
+    }
+}
