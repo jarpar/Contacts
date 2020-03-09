@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Contacts/task/Contacts-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Contacts/task/Contacts-task.iml" group="Contacts/Contacts-task" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Contacts/task/Contacts-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Contacts/task/Contacts-task_main.iml" group="Contacts/Contacts-task" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Contacts/task/Contacts-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Contacts/task/Contacts-task_test.iml" group="Contacts/Contacts-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Problems-Hiring_a_chef.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Problems-Hiring_a_chef.iml" group="Contacts/Problems-Hiring_a_chef" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Problems-Hiring_a_chef_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Problems-Hiring_a_chef_main.iml" group="Contacts/Problems-Hiring_a_chef" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Problems-Hiring_a_chef_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Hiring a chef/Problems-Hiring_a_chef_test.iml" group="Contacts/Problems-Hiring_a_chef" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="Contacts/util" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="Contacts/util" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="Contacts/util" />
