@@ -6,6 +6,8 @@
       <module name="Contacts-task_test" target="11" />
       <module name="Problems-Hiring_a_chef_main" target="11" />
       <module name="Problems-Hiring_a_chef_test" target="11" />
+      <module name="Problems__1_-Check_sudoku_main" target="11" />
+      <module name="Problems__1_-Check_sudoku_test" target="11" />
       <module name="util_main" target="11" />
       <module name="util_test" target="11" />
     </bytecodeTargetLevel>
