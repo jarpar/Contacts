@@ -8,13 +8,14 @@ public class Main {
     }
 }
 
+
 class SmallTabs extends Tab {
 
     public int[] divide() {
         for (int i = 0; i < n * n; i++) {
 
         }
-        return;
+        return matrix[0];
     }
 
 }
@@ -34,6 +35,10 @@ class Tab {
         }
         scanner.close();
         return matrix;
+    }
+
+    public boolean checkMatrix(int[][] matrix) {
+        return true;
     }
 
     public void print() {
