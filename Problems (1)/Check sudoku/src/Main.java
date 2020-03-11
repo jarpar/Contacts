@@ -8,6 +8,17 @@ public class Main {
     }
 }
 
+class SmallTabs extends Tab {
+
+    public int[] divide() {
+        for (int i = 0; i < n * n; i++) {
+
+        }
+        return;
+    }
+
+}
+
 class Tab {
     int n;
     int[][] matrix;
